@@ -152,6 +152,67 @@ ul.navbar-nav {
     }
 }
 
+.other-courses {
+    text-align: center;
+    padding: 8% 0;
+    h1 {
+        color: #11114E;
+    }
+    .show-courses {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        .card {
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            .bg-html {
+                background-color: #3f6185;
+                text-align: center;
+                border-radius: 15px 15px 0 0;
+                img {
+                    width: 90%;
+                    padding: 20px;
+                }
+            }
+
+            .bg-laravel {
+                background-color: #dc594c;
+                text-align: center;
+                border-radius: 15px 15px 0 0;
+                img {
+                    width: 76%;
+                    padding: 20px;
+                }
+            }
+
+            .bg-php {
+                background-color:#556598;
+                text-align: center;
+                border-radius: 15px 15px 0 0;
+                img {
+                    width: 90%;
+                    padding: 20px;
+                }
+            }
+            .card-body {
+                text-align: center;
+                .card-title {
+                    font-family: 'Roboto', sans-serif;
+                    color: #B2D235;
+                }
+                .card-text {
+                    font-family: 'Roboto', sans-serif;
+                    color: #505353;
+                }
+            }
+        }
+        
+    }
+}
+
 // responsive
 @media (max-width: 991px) {
     .navbar {
